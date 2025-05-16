@@ -16,6 +16,7 @@
   "author": "anuj pawar",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "git": "^0.1.5",
     "mongodb": "^6.16.0",
