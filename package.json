@@ -5,7 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --experimental-json-modules -r dotenv/config src/index.js" 
+    "dev": "nodemon --experimental-json-modules -r dotenv/config src/index.js"
   },
   "keywords": [
     "js",
@@ -16,6 +16,8 @@
   "author": "anuj pawar",
   "license": "ISC",
   "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "git": "^0.1.5",
