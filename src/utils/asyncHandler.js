@@ -1,3 +1,4 @@
+//PROMISE METHOD :
 const asyncHandler = (requestHandler) => {
     return (req, res, next) => {
         Promise.resolve(requestHandler(req, res, next)).catch((err) => next(err))
@@ -8,13 +9,15 @@ const asyncHandler = (requestHandler) => {
 export { asyncHandler }
 
 
-
+//SHORTHAND FOR WRITING HIGHER-LEVEL FUNCTION (TAKE A FUNCTION AS ARGUMENT)
 
 // const asyncHandler = () => {}
 // const asyncHandler = (func) => () => {}
 // const asyncHandler = (func) => async () => {}
 
 
+
+// TRY....CATCH METHOD :
 // const asyncHandler = (fn) => async (req, res, next) => {
 //     try {
 //         await fn(req, res, next)
